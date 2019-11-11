@@ -278,12 +278,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1 {
+    background: teal;
+}
+
+.box2 {
+    background: gold;
+}
+
+.box3 {
+    background: cadetblue;
+}
+
+.box4 {
+    background: coral;
+}
+
+.box5 {
+    background: crimson;
+}
+
+.box6 {
+    background: forestgreen;
+}
+
+.box7 {
+    background: darkorchid;
+}
+
+.box8 {
+    background: hotpink;
+}
+
+.box9 {
+    background: indigo;
+}
+
+.box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -317,4 +356,89 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*ABOUT PAGE*/
+.container {
+    margin-bottom: 4rem;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 5rem;
+}
+
+.strategy {
+    margin: 0 50rem 5rem 23rem;
+}
+
+.how {
+    margin: -12.7rem 20rem 5rem 50rem;
+}
+
+.containers {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 5rem 0 5rem 0;
+}
+
+.img1 {
+    margin: 0 0 0 20rem;
+}
+
+.img2 {
+    margin: 0 20rem 0 0;
+}
+
+.img3 {
+    margin: 0 0 0 20rem;
+}
+
+.img4 {
+    margin: 0 20rem 0 0;
+}
+
+
+.place {
+    margin: 0 50rem 5rem 23rem;
+}
+
+.colab {
+    margin: -12.6rem 20rem 5rem 50rem;
+}
+
+
+hr {
+    margin: 0 20rem 0 20rem;
+    border-bottom: 1px dashed black;
+}
+
+.container5 {
+    margin: 3rem 20rem 5rem 20rem;
+
+}
+
+button {
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    border: solid 2px black;
+    border-radius: 5px;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+        0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    border: solid 2px rgb(170, 168, 168);
+}
+
+button:focus,
+input[type="button"]:focus {
+    outline: none;
 }
