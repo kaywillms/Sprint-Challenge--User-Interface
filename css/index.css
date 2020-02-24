@@ -289,6 +289,12 @@ p {
     background: teal;
 }
 
+.box:hover {
+    transition: all 0.5s ease;
+    transform: scale(1.5);
+    box-shadow: 5px 10px 8px #888888;
+}
+
 .box2 {
     background: gold;
 }
